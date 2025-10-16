@@ -12,7 +12,7 @@
   --text-dark: #0b2b66;
 }
 
-/* Global font and text rendering */
+/* ====== Global Styles ====== */
 body {
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
@@ -32,6 +32,16 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   color: var(--blue);
   margin-bottom: 0.5em;
+}
+
+h1 {
+  text-align: center;
+}
+
+.service-logo {
+  text-align: left;
+  margin-top: 0;
+  padding-left: 50px;
 }
 
 /* ====== Text Elements ====== */
@@ -90,4 +100,81 @@ a {
 a:hover {
   color: var(--red);
   text-decoration: underline;
+}
+
+/* ====== Navigation Menu ====== */
+.navigation-menu {
+  background-color: var(--blue);
+  width: 100%;
+}
+
+.navigation-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* horizontal layout */
+  justify-content: center; /* center the items */
+  align-items: center;
+  gap: 40px; /* spacing between items */
+}
+
+.navigation-menu li {
+  display: inline-flex;
+  text-align: center;
+}
+
+.navigation-menu a {
+  color: var(--white);
+  padding: 15px 20px;
+  display: block;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.navigation-menu a:hover {
+  background-color: var(--red);
+  color: var(--white);
+}
+
+/* ====== Zoom Meeting Section ====== */
+#zoom-meeting {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: var(--offwhite);
+  border-top: 2px solid var(--blue);
+  border-bottom: 2px solid var(--blue);
+}
+
+#zoom-meeting h2 {
+  color: var(--blue);
+  margin-bottom: 12px;
+}
+
+#zoom-meeting p {
+  color: var(--text-dark);
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+}
+
+.zoom-button {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.zoom-button:hover {
+  background-color: var(--red);
+  transform: scale(1.05);
+}
+
+.zoom-details {
+  margin-top: 10px;
+  color: var(--text-dark);
+  font-size: 1rem;
 }
