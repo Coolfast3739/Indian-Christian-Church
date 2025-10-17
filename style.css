@@ -178,3 +178,7 @@ a:hover {
   color: var(--text-dark);
   font-size: 1rem;
 }
+
+.header-tagline {
+  text-align: center;
+}
