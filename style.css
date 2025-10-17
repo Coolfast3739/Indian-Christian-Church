@@ -207,3 +207,22 @@ a:hover {
   color: var(--text-dark);
   margin-bottom: 20px;
 }
+/* ====== Countdown Timer Section ====== */
+#countdown-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: var(--white);
+  border-top: 2px solid var(--blue);
+  border-bottom: 2px solid var(--blue);
+}
+
+#countdown-section h2 {
+  color: var(--blue);
+  margin-bottom: 10px;
+}
+
+#countdown-timer {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--red);
+}
