@@ -196,3 +196,14 @@ a:hover {
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 30, 90, 0.1);
 }
+.address {
+  text-align: center;
+  font-size: 1.1rem;
+  color: var(--text-dark);
+}
+.description {
+  text-align: center;
+  font-size: 1rem;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+}
