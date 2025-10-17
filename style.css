@@ -216,7 +216,7 @@ a:hover {
   border-bottom: 2px solid var(--blue);
 }
 
-#countdown-section h2 {
+#countdown-section h1 {
   color: var(--blue);
   margin-bottom: 10px;
 }
