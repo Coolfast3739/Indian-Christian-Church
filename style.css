@@ -182,3 +182,17 @@ a:hover {
 .header-tagline {
   text-align: center;
 }
+.leader-description {
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 0 20px 20px 20px;
+  color: var(--text-dark);
+}
+
+.leader-image {
+  display: block;
+  margin: 0 auto 20px auto;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 30, 90, 0.1);
+}
